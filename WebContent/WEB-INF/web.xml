@@ -10,11 +10,30 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  <servlet-name>FirstServlet</servlet-name>
-  <servlet-class>helloServlet.HelloServlet</servlet-class>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>helloServlet.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  <servlet-name>FirstServlet</servlet-name>
-  <url-pattern>hello</url-pattern>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern>hello</url-pattern>
   </servlet-mapping>
+  <servlet>
+  <servlet-name>servletConfigClass</servlet-name>
+  <servlet-class>servletConfig.servletConfigClass</servlet-class>
+  <init-param>
+  <param-name>ozgurbircan</param-name>
+  <param-value>Ozgur Bircan</param-value>
+  </init-param>
+  
+  <init-param>
+  <param-name>comertbaldemir</param-name>
+  <param-value>Comert Baldemir</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>servletConfigClass</servlet-name>
+  <url-pattern>/servletConfigClass</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
