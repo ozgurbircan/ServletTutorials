@@ -17,9 +17,11 @@
     <servlet-name>FirstServlet</servlet-name>
     <url-pattern>hello</url-pattern>
   </servlet-mapping>
+  
   <servlet>
   <servlet-name>servletConfigClass</servlet-name>
   <servlet-class>servletConfig.servletConfigClass</servlet-class>
+ 
   <init-param>
   <param-name>ozgurbircan</param-name>
   <param-value>Ozgur Bircan</param-value>
