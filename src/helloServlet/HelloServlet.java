@@ -15,7 +15,7 @@ public class HelloServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter printWriter=resp.getWriter();
 		printWriter.write("<html><body>");
-		String sms="<h1>selamun aleykum</h1>";
+		String sms="<h1>Hello World</h1>";
 		printWriter.write(sms);
 		printWriter.write("</body></html>");
 	}
