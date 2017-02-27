@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kayıt Formu</title>
+<style type="text/css">
+
+#adlabel
+{
+float: left;
+}
+#soyadlabel
+{
+float: left;
+}
+#cinsiyetradio
+{
+float: left;}
+#cinsiyetlabel
+{
+float: left;
+}
+#c
+{
+float: left;
+}
+#java
+{
+float: left;
+}
+
+
+</style>
+</head>
+<body>
+	<form action="requestExample" method="get">	
+	<div id="main">
+	
+	<div id="ad">
+	<div id="adlabel">Ad</div>
+	<div id="adtext"><input type="text" name="firstName"></div>
+	</div>
+	
+	<div id="soyad">
+	<div id="soyadlabel">Soyad</div>
+	<div id="soyadtext"><input type="text" name="secondName"></div>
+	</div>
+	
+	<div id="cinsiyet">
+	<div id="cinsiyetlabel">Cinsiyet</div>
+	<div id="cinsiyetradio">Erkek<input type="radio" name="radio" value="Erkek"></div>
+	<div id="cinsiyetradio2">Bayan<input type="radio" name="radio" value="Bayan"></div>
+	
+	</div>
+	
+	<div id="program">
+	<div id="c"><input type="checkbox" name="cprogram" value="C">C</div>
+	<div id="java"><input type="checkbox" name="cprogram" value="Java">Java</div>
+	</div>
+	<input type="submit" value="Gonder">
+	</div>
+	
+	</form>
+	
+</body>
+</html>
